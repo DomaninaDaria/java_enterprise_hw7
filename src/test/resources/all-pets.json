@@ -1,0 +1,18 @@
+[{
+  "name": "Tom",
+  "age":3,
+  "owner":"Daria"
+},
+  {
+
+    "name": "Jerry",
+    "age":2,
+    "owner":"Katya"
+  },
+  {
+
+    "name": "Mike",
+    "age":5,
+    "owner":"Vlad"
+  }
+  ]
