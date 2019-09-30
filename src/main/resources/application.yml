@@ -1,0 +1,27 @@
+server.port: 80
+pet-clinic:
+  doctors:
+    host-name: my-doctor.com
+    specializations:
+      - doctor1
+      - doctor2
+      - doctor3
+  working-hours:
+    start: 8
+    end: 16
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://192.168.99.100:5432/postgres
+    username: postgres
+    password: postgres
+  h2:
+    console:
+      enabled: true
+  jpa:
+      open-in-view: false
+      hibernate:
+        ddl-auto: create
+logging:
+  level:
+    sql: debug

@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Kirill",
+    "specializations":[ "doctor1"],
+    "schedules":[]
+  },
+  {
+    "name": "Vasya",
+    "specializations": ["doctor2"],
+    "schedules":[]
+  },
+  {
+    "name": "Nikita",
+    "specializations": ["doctor3"],
+    "schedules":[]
+  }
+]
