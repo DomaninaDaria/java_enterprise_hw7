@@ -23,7 +23,7 @@ public class Doctor {
     @ElementCollection
     @LazyCollection(LazyCollectionOption.FALSE)
     private List<String> specializations;
-    @JoinColumn(name = "schedule_id")
+    @JoinColumn(name = "doctor_id")
     @OneToMany(cascade = {CascadeType.ALL}, fetch = FetchType.EAGER)
 
     private List<Schedule> schedules;
